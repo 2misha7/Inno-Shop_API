@@ -1,0 +1,30 @@
+﻿services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=S2f*ffdwa
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - backend
+  productmanager:
+    image: productmanager
+    build:
+      context: .
+      dockerfile: ProductManager/Dockerfile
+
+  usermanager:
+    image: usermanager
+    build:
+      context: .
+      dockerfile: UserManager/Dockerfile
+    
+networks:
+  backend:
+
+volumes:
+  sqlserver_data:

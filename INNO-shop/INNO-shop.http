@@ -1,0 +1,6 @@
+@INNO_shop_HostAddress = http://localhost:5051
+
+GET {{INNO_shop_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

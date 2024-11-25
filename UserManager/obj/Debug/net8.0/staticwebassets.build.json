@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "ERffmcP9kBLteE2HA+Zi0QPsTXPHsMDYL5vPIugnD1k=",
+  "Source": "UserManager",
+  "BasePath": "_content/UserManager",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\MY PC\\Desktop\\INNO-shop\\ProductManager\\ProductManager.csproj",
+      "Version": 2,
+      "Source": "ProductManager",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
